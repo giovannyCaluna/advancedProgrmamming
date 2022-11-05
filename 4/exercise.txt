@@ -1,0 +1,15 @@
+Exercise
+--------
+
+* Specialise the function print for the N=0..10 cases, such that it prints the values as words.
+  pl.
+    print<2>(); // -> two
+    print<77>(); // -> 77
+
+* Write a function template to bubble-sort an array of any type and of the size N.
+  pl.
+    class Date;  // copy-paste from 0201date.cpp
+    int main() {
+      Date array[10];
+      bubblesort<Date,10>(array);
+    }

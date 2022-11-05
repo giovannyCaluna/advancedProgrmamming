@@ -1,0 +1,4 @@
+Exercise
+--------
+* Implement a template(s), which determines at compile time if a number is a prime.
+  (prim<N>::val == 1 <=> for all M [2..N/2]: N % M != 0)

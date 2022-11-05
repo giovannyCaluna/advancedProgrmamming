@@ -1,0 +1,22 @@
+Exercise
+--------
+* Stack implementation with linked list
+
+
+template <class T>
+class Stack {
+  struct Elem {
+    T data;
+    Elem *next;
+  };
+  Elem *head;
+public:
+  // adding an element
+  void push(const T &e) {
+    /*TODO*/;
+  }
+  // returning the last element
+  T pop() {
+    return ???; /*TODO*/
+  }
+};
