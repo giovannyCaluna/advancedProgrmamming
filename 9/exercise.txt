@@ -1,0 +1,6 @@
+Exercise
+--------
+
+* Extend the example so that the -- operation is also supported.
+* Extend the example so that the Vector template contains also a reverse_iterator, which can be created with the rbegin/rend functions, and in case of the ++ operation it steps backwards.
+* Extend the exercise from 03template (linked list implementation of the Stack template) with iterator and reverse_iterator.
